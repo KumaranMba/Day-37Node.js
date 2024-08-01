@@ -25,7 +25,7 @@ const HOSTNAME = '127.0.0.1'; // localhost
 const PORT = 3001;
 
 // make the server to listen to the defined portnumber
-app.listen(PORT,HOSTNAME, ()=>{
+app.listen(PORT,()=>{
     console.log(`server running at http://${HOSTNAME}:${PORT}`);
 });
 
